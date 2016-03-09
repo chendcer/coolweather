@@ -27,7 +27,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
             + "id inteager primary key autoincrement,"
             + "county_name text,"
             + "county_code text,"
-            + "county_id integer,)";
+            + "city_id integer)";
 
     @Override
     public void onCreate(SQLiteDatabase db) {
